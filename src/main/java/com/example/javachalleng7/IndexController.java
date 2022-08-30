@@ -1,10 +1,20 @@
-package com.example.JavaChallenge7;
+package com.example.javachalleng7;
 
-import com.example.JavaChallenge7.From.*;
+
+import com.example.javachalleng7.Form.CreateForm;
+import com.example.javachalleng7.Form.DeleteForm;
+import com.example.javachalleng7.Form.ProfileForm;
+import com.example.javachalleng7.Form.UserForm;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
-
 
 import javax.validation.Valid;
 import java.net.URI;
@@ -12,12 +22,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicLong;
 
-
 @RestController
 public class IndexController {
-    
+
     @GetMapping("/names")
-    public List<String> getIndex(){
+    public List<String> names(){
         return List.of("segawa", "tomohito");
     }
 
@@ -29,14 +38,15 @@ public class IndexController {
                 .toUri();
         return ResponseEntity.created(url).body("name successfully created");
     }
+
     @PatchMapping("/names/{id}")
-    public ResponseEntity<Map<String,String>> update(@PathVariable("id") int id, @RequestBody UpdateForm from) {
-        return ResponseEntity.ok(Map.of("message", "names successfully updated"));
+    public ResponseEntity<Map<String,String>> update(@PathVariable("id") int id) {
+        return ResponseEntity.ok(Map.of("message", "id successfully updated"));
     }
 
-    @DeleteMapping("/names/{id}")
-    public ResponseEntity<Map<String,String>> delete(@PathVariable("id") int id, @RequestBody DeleteFrom from) {
-        return ResponseEntity.ok(Map.of("message", "names successfully updated"));
+    @DeleteMapping("/names")
+    public ResponseEntity<Map<String,String>> delete(@RequestBody DeleteForm from) {
+        return ResponseEntity.ok(Map.of("message", "names successfully deleted"));
     }
 
     private static final String template = "segawa, %s!";

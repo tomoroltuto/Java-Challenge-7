@@ -1,4 +1,4 @@
-package com.example.JavaChallenge7.From;
+package com.example.javachalleng7.Form;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
