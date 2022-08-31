@@ -23,41 +23,42 @@ Spring Bootの設定にはspring initializrを使用して以下の設定しま�
 それぞれの実装結果を以下にまとめました。
 
 * GETリクエスト
-src/main/java/com/example/JavaChallenge7/IndexController.java内に以下のコードを作成
-https://github.com/tomoroltuto/Java-Challenge-7/blob/22a6cdf40adfa18ecf5bda0c37145a841d693c13/src/main/java/com/example/JavaChallenge7/IndexController.java#L19-L22
+src/main/java/com/example/javachallenge7/IndexController.java内に以下のコードを作成
+https://github.com/tomoroltuto/Java-Challenge-7/blob/5100b7cbf720b7f1d4b742830c64be343827cc8b/src/main/java/com/example/javachallenge7/IndexController.java#L28-L31
 
 リクエストとレスポンスの結果
 
 <img width="1440" alt="1 GETリクエスト" src="https://user-images.githubusercontent.com/90845405/187080707-d5ec8e3a-1d36-4125-8ce0-4fc8052ba767.png">
 
 * POSTリクエスト
-src/main/java/com/example/JavaChallenge7/IndexController.java内に以下のコードを作成
-https://github.com/tomoroltuto/Java-Challenge-7/blob/22a6cdf40adfa18ecf5bda0c37145a841d693c13/src/main/java/com/example/JavaChallenge7/IndexController.java#L24-L31
-src/main/java/com/example/JavaChallenge7/From/CreateForm.javaに以下のコードを作成
-https://github.com/tomoroltuto/Java-Challenge-7/blob/22a6cdf40adfa18ecf5bda0c37145a841d693c13/src/main/java/com/example/JavaChallenge7/From/CreateForm.java#L1-L15
+src/main/java/com/example/javachallenge7/IndexController.java内に以下のコードを作成
+https://github.com/tomoroltuto/Java-Challenge-7/blob/5100b7cbf720b7f1d4b742830c64be343827cc8b/src/main/java/com/example/javachallenge7/IndexController.java#L33-L40
+src/main/java/com/example/javachallenge7/Form/CreateForm.java内に以下のコードを作成
+https://github.com/tomoroltuto/Java-Challenge-7/blob/5100b7cbf720b7f1d4b742830c64be343827cc8b/src/main/java/com/example/javachallenge7/Form/CreateForm.java#L1-L14
 
 リクエストとレスポンスの結果
 
 <img width="1440" alt="2 POSTリクエスト" src="https://user-images.githubusercontent.com/90845405/187080710-a3fa923f-fad2-4eda-b41b-6e65e9c2cf7b.png">
 
 * PATCHリクエスト
-src/main/java/com/example/JavaChallenge7/IndexController.java内に以下のコードを作成
-https://github.com/tomoroltuto/Java-Challenge-7/blob/22a6cdf40adfa18ecf5bda0c37145a841d693c13/src/main/java/com/example/JavaChallenge7/IndexController.java#L32-L35
-src/main/java/com/example/JavaChallenge7/From/UpdateForm.java内に以下のコードを作成https://github.com/tomoroltuto/Java-Challenge-7/blob/22a6cdf40adfa18ecf5bda0c37145a841d693c13/src/main/java/com/example/JavaChallenge7/From/UpdateForm.java#L1-L15
+src/main/java/com/example/javachallenge7/IndexController.java内に以下のコードを作成
+https://github.com/tomoroltuto/Java-Challenge-7/blob/5100b7cbf720b7f1d4b742830c64be343827cc8b/src/main/java/com/example/javachallenge7/IndexController.java#L42-L45
 
 リクエストとレスポンスの結果
 
-<img width="1440" alt="3 PATCHリクエスト" src="https://user-images.githubusercontent.com/90845405/187080720-8629c1ab-909a-4242-9ab0-a0b8376d3238.png">
+<img width="1440" alt="スクリーンショット 2022-08-30 21 51 02" src="https://user-images.githubusercontent.com/90845405/187684250-24c80249-6ea1-4aa7-a2ef-14d9cf7f4dbe.png">
+
 
 * DELETEリクエスト
-src/main/java/com/example/JavaChallenge7/IndexController.java内に以下のコードを作成
-https://github.com/tomoroltuto/Java-Challenge-7/blob/22a6cdf40adfa18ecf5bda0c37145a841d693c13/src/main/java/com/example/JavaChallenge7/IndexController.java#L37-L40
-src/main/java/com/example/JavaChallenge7/From/DeleteFrom.java内に以下のコードを作成
-https://github.com/tomoroltuto/Java-Challenge-7/blob/22a6cdf40adfa18ecf5bda0c37145a841d693c13/src/main/java/com/example/JavaChallenge7/From/DeleteFrom.java#L1-L13
+src/main/java/com/example/javachallenge7/IndexController.java内に以下のコードを作成
+https://github.com/tomoroltuto/Java-Challenge-7/blob/5100b7cbf720b7f1d4b742830c64be343827cc8b/src/main/java/com/example/javachallenge7/IndexController.java#L47-L50
+src/main/java/com/example/javachallenge7/Form/DeleteForm.java内に以下のコードを作成
+https://github.com/tomoroltuto/Java-Challenge-7/blob/5100b7cbf720b7f1d4b742830c64be343827cc8b/src/main/java/com/example/javachallenge7/Form/DeleteForm.java#L1-L16
 
 リクエストとレスポンスの結果
 
-<img width="1440" alt="4 DELETEリクエスト" src="https://user-images.githubusercontent.com/90845405/187080726-4edf3fa9-f708-4615-ad6f-59afae33b7a4.png">
+<img width="1440" alt="スクリーンショット 2022-08-30 21 50 05" src="https://user-images.githubusercontent.com/90845405/187684566-941761d9-6237-476f-a233-de716a29535f.png">
+
 
 ## ③オリジナルのリクエストの実装
 
@@ -67,9 +68,9 @@ https://github.com/tomoroltuto/Java-Challenge-7/blob/22a6cdf40adfa18ecf5bda0c371
 
 　　実装内容:クエリ文字列を受け取れるようにする
 
-src/main/java/com/example/JavaChallenge7/IndexController.java内に以下のコードを作成https://github.com/tomoroltuto/Java-Challenge-7/blob/22a6cdf40adfa18ecf5bda0c37145a841d693c13/src/main/java/com/example/JavaChallenge7/IndexController.java#L42-L48
-src/main/java/com/example/JavaChallenge7/From/ProfileForm.java内に以下のコードを作成
-https://github.com/tomoroltuto/Java-Challenge-7/blob/22a6cdf40adfa18ecf5bda0c37145a841d693c13/src/main/java/com/example/JavaChallenge7/From/ProfileForm.java#L1-L21
+src/main/java/com/example/javachallenge7/IndexController.java内に以下のコードを作成https://github.com/tomoroltuto/Java-Challenge-7/blob/5100b7cbf720b7f1d4b742830c64be343827cc8b/src/main/java/com/example/javachallenge7/IndexController.java#L52-L58
+src/main/java/com/example/javachallenge7/Form/ProfileForm.java内に以下のコードを作成
+https://github.com/tomoroltuto/Java-Challenge-7/blob/5100b7cbf720b7f1d4b742830c64be343827cc8b/src/main/java/com/example/javachallenge7/Form/ProfileForm.java#L1-L21
 
 リクエストとレスポンスの結果 (クエリ文字列をなし)
 http://localhost:8080/profile
@@ -88,11 +89,11 @@ http://localhost:8080/profile?=user
 　　　　②nameがnull、20文字以上の場合はエラーとする
 　　　　③ageが0の場合はエラーとする
 
-src/main/java/com/example/JavaChallenge7/IndexController.java内に以下のコードを作成
-https://github.com/tomoroltuto/Java-Challenge-7/blob/22a6cdf40adfa18ecf5bda0c37145a841d693c13/src/main/java/com/example/JavaChallenge7/IndexController.java#L50-L53
+src/main/java/com/example/javachallenge7/IndexController.java内に以下のコードを作成
+https://github.com/tomoroltuto/Java-Challenge-7/blob/5100b7cbf720b7f1d4b742830c64be343827cc8b/src/main/java/com/example/javachallenge7/IndexController.java#L60-L63
 
-src/main/java/com/example/JavaChallenge7/From/UserForm.java内に以下のコードを作成
-https://github.com/tomoroltuto/Java-Challenge-7/blob/22a6cdf40adfa18ecf5bda0c37145a841d693c13/src/main/java/com/example/JavaChallenge7/From/UserForm.java#L1-L52
+src/main/java/com/example/javachallenge7/Form/UserForm.java内に以下のコードを作成
+https://github.com/tomoroltuto/Java-Challenge-7/blob/5100b7cbf720b7f1d4b742830c64be343827cc8b/src/main/java/com/example/javachallenge7/Form/UserForm.java#L1-L52
 
 リクエストとレスポンスの結果(正常時)
 <img width="1440" alt="6-1 POSTリクエスト" src="https://user-images.githubusercontent.com/90845405/187081517-397417a0-4396-4598-a5e2-30b0a1f676a2.png">
