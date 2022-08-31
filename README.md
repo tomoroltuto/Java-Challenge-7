@@ -1,5 +1,5 @@
 # 概要
-Java-Challenge-7ではHTTPメソッドのGET/POST/PATCH/DELETEのリクエストを扱えるControllerを実装とオリジナルの仕様での実装を行いPostman使用して確認をしました。
+Java-Challenge-7ではHTTPメソッドのGET/POST/PATCH/DELETEのリクエストを扱えるControllerを実装とオリジナルの仕様での実装を行いPostman使用して確認をしたことを以下にまとめました。
 
 
 * ①Spring Boot設定
