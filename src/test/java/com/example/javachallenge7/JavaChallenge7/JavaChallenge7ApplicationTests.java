@@ -1,4 +1,4 @@
-package com.example.javachalleng7.JavaChallenge7;
+package com.example.javachallenge7.JavaChallenge7;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

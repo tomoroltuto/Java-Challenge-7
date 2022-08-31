@@ -1,10 +1,10 @@
-package com.example.javachalleng7;
+package com.example.javachallenge7;
 
 
-import com.example.javachalleng7.Form.CreateForm;
-import com.example.javachalleng7.Form.DeleteForm;
-import com.example.javachalleng7.Form.ProfileForm;
-import com.example.javachalleng7.Form.UserForm;
+import com.example.javachallenge7.Form.CreateForm;
+import com.example.javachallenge7.Form.DeleteForm;
+import com.example.javachallenge7.Form.ProfileForm;
+import com.example.javachallenge7.Form.UserForm;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

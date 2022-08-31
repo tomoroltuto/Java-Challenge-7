@@ -1,4 +1,4 @@
-package com.example.javachalleng7;
+package com.example.javachallenge7;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

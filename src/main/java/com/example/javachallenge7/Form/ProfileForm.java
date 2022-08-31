@@ -1,4 +1,4 @@
-package com.example.javachalleng7.Form;
+package com.example.javachallenge7.Form;
 
 
 public class ProfileForm {
